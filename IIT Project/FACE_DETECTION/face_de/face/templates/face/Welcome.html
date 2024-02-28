@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Face Detection</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 50px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      margin-top: 10px;
+    }
+
+    #startButton {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Face Detection</h1>
+  <p>This simple web application allows you to experience real-time face detection using your webcam.</p>
+  <p>Click the button below to start face detection:</p>
+  <button id="startButton" onclick="startFaceDetection()">Start Face Detection</button>
+
+  <script>
+    function startFaceDetection() {
+      // Redirect to the face detection page
+      window.location.href = "http://127.0.0.1:8000/";
+    }
+  </script>
+</body>
+</html>
